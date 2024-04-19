@@ -9,11 +9,13 @@
 #import "Executable.h"
 #import "AlphabetGuessingGame.h"
 #import "ArraySumCalculator.h"
+#import "AverageNumberCalculator.h"
+#import "BinaryConverter.h"
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
 		
-		id<Executable> ex = [[ArraySumCalculator alloc] init];
+		id<Executable> ex = [[BinaryConverter alloc] init];
 		[ex exec];
 	}
 	return 0;

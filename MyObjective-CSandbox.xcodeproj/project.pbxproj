@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2588A172BD2653200C4DC5E /* AverageNumberCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2588A162BD2653200C4DC5E /* AverageNumberCalculator.m */; };
+		F2588A1A2BD26C9F00C4DC5E /* BinaryConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */; };
 		F2B16AED2BD179AB00FAC40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B16AEC2BD179AB00FAC40B /* main.m */; };
 		F2B16AFD2BD1808800FAC40B /* AlphabetGuessingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B16AFC2BD1808800FAC40B /* AlphabetGuessingGame.m */; };
 		F2B2E4A72BD1B5FA0018D10C /* ArraySumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B2E4A62BD1B5FA0018D10C /* ArraySumCalculator.m */; };
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F2588A152BD2650000C4DC5E /* AverageNumberCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AverageNumberCalculator.h; sourceTree = "<group>"; };
+		F2588A162BD2653200C4DC5E /* AverageNumberCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AverageNumberCalculator.m; sourceTree = "<group>"; };
+		F2588A182BD26C7200C4DC5E /* BinaryConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryConverter.h; sourceTree = "<group>"; };
+		F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryConverter.m; sourceTree = "<group>"; };
 		F2B16AE92BD179AB00FAC40B /* MyObjective-CSandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MyObjective-CSandbox"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B16AEC2BD179AB00FAC40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2B16AF92BD17DCA00FAC40B /* Executable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Executable.h; sourceTree = "<group>"; };
@@ -78,6 +84,10 @@
 				F2B16AFC2BD1808800FAC40B /* AlphabetGuessingGame.m */,
 				F2B2E4A52BD1B5B20018D10C /* ArraySumCalculator.h */,
 				F2B2E4A62BD1B5FA0018D10C /* ArraySumCalculator.m */,
+				F2588A152BD2650000C4DC5E /* AverageNumberCalculator.h */,
+				F2588A162BD2653200C4DC5E /* AverageNumberCalculator.m */,
+				F2588A182BD26C7200C4DC5E /* BinaryConverter.h */,
+				F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */,
 			);
 			path = "Genin Tasks";
 			sourceTree = "<group>";
@@ -140,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B16AED2BD179AB00FAC40B /* main.m in Sources */,
+				F2588A1A2BD26C9F00C4DC5E /* BinaryConverter.m in Sources */,
 				F2B2E4A72BD1B5FA0018D10C /* ArraySumCalculator.m in Sources */,
+				F2588A172BD2653200C4DC5E /* AverageNumberCalculator.m in Sources */,
 				F2B16AFD2BD1808800FAC40B /* AlphabetGuessingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
