@@ -12,11 +12,12 @@
 #import "AverageNumberCalculator.h"
 #import "BinaryConverter.h"
 
-int main(int argc, const char * argv[]) {
-	@autoreleasepool {
-		
-		id<Executable> ex = [[BinaryConverter alloc] init];
-		[ex exec];
-	}
-	return 0;
-}
+//int main(int argc, const char * argv[]) {
+//	@autoreleasepool {
+//		
+//		id<Executable> ex = [[BinaryConverter alloc] init];
+//		[ex exec];
+//	}
+//	return 0;
+//}
+

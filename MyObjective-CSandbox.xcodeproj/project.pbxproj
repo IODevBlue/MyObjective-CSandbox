@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		F2588A172BD2653200C4DC5E /* AverageNumberCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2588A162BD2653200C4DC5E /* AverageNumberCalculator.m */; };
 		F2588A1A2BD26C9F00C4DC5E /* BinaryConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */; };
+		F2AC9E292CA17A1700B28D25 /* MySwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC9E282CA17A1700B28D25 /* MySwiftClass.swift */; };
 		F2B16AED2BD179AB00FAC40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B16AEC2BD179AB00FAC40B /* main.m */; };
 		F2B16AFD2BD1808800FAC40B /* AlphabetGuessingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B16AFC2BD1808800FAC40B /* AlphabetGuessingGame.m */; };
 		F2B2E4A72BD1B5FA0018D10C /* ArraySumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B2E4A62BD1B5FA0018D10C /* ArraySumCalculator.m */; };
+		F2BEFDA42C97756C0044497E /* main_sandbox.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2BEFDA32C97756C0044497E /* main_sandbox.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		F2588A162BD2653200C4DC5E /* AverageNumberCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AverageNumberCalculator.m; sourceTree = "<group>"; };
 		F2588A182BD26C7200C4DC5E /* BinaryConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryConverter.h; sourceTree = "<group>"; };
 		F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryConverter.m; sourceTree = "<group>"; };
+		F2AC9E272CA17A1600B28D25 /* MyObjective-CSandbox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyObjective-CSandbox-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2AC9E282CA17A1700B28D25 /* MySwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftClass.swift; sourceTree = "<group>"; };
 		F2B16AE92BD179AB00FAC40B /* MyObjective-CSandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MyObjective-CSandbox"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B16AEC2BD179AB00FAC40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2B16AF92BD17DCA00FAC40B /* Executable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Executable.h; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		F2B16AFC2BD1808800FAC40B /* AlphabetGuessingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphabetGuessingGame.m; sourceTree = "<group>"; };
 		F2B2E4A52BD1B5B20018D10C /* ArraySumCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArraySumCalculator.h; sourceTree = "<group>"; };
 		F2B2E4A62BD1B5FA0018D10C /* ArraySumCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraySumCalculator.m; sourceTree = "<group>"; };
+		F2BEFDA32C97756C0044497E /* main_sandbox.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main_sandbox.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2AC9E262CA179FA00B28D25 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC9E282CA17A1700B28D25 /* MySwiftClass.swift */,
+				F2AC9E272CA17A1600B28D25 /* MyObjective-CSandbox-Bridging-Header.h */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
 		F2B16AE02BD179AB00FAC40B = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +84,8 @@
 		F2B16AEB2BD179AB00FAC40B /* MyObjective-CSandbox */ = {
 			isa = PBXGroup;
 			children = (
+				F2AC9E262CA179FA00B28D25 /* Swift Files */,
+				F2BEFDA22C9758C00044497E /* Sandbox Files */,
 				F2B16AFA2BD17E0700FAC40B /* Genin Tasks */,
 				F2B16AF92BD17DCA00FAC40B /* Executable.h */,
 				F2B16AEC2BD179AB00FAC40B /* main.m */,
@@ -90,6 +106,14 @@
 				F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */,
 			);
 			path = "Genin Tasks";
+			sourceTree = "<group>";
+		};
+		F2BEFDA22C9758C00044497E /* Sandbox Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEFDA32C97756C0044497E /* main_sandbox.mm */,
+			);
+			path = "Sandbox Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +147,7 @@
 				TargetAttributes = {
 					F2B16AE82BD179AB00FAC40B = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -149,9 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BEFDA42C97756C0044497E /* main_sandbox.mm in Sources */,
 				F2B16AED2BD179AB00FAC40B /* main.m in Sources */,
 				F2588A1A2BD26C9F00C4DC5E /* BinaryConverter.m in Sources */,
 				F2B2E4A72BD1B5FA0018D10C /* ArraySumCalculator.m in Sources */,
+				F2AC9E292CA17A1700B28D25 /* MySwiftClass.swift in Sources */,
 				F2588A172BD2653200C4DC5E /* AverageNumberCalculator.m in Sources */,
 				F2B16AFD2BD1808800FAC40B /* AlphabetGuessingGame.m in Sources */,
 			);
@@ -278,20 +305,29 @@
 		F2B16AF12BD179AB00FAC40B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZW2GC695XD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyObjective-CSandbox/Swift Files/MyObjective-CSandbox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		F2B16AF22BD179AB00FAC40B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZW2GC695XD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyObjective-CSandbox/Swift Files/MyObjective-CSandbox-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
