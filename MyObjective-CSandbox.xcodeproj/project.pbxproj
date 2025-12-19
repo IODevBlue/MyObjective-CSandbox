@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		F2588A172BD2653200C4DC5E /* AverageNumberCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2588A162BD2653200C4DC5E /* AverageNumberCalculator.m */; };
 		F2588A1A2BD26C9F00C4DC5E /* BinaryConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */; };
+		F297662F2EE6D5B700DFDDC8 /* PLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = F297662E2EE6D5B700DFDDC8 /* PLog.mm */; };
+		F29766342EE6EE0B00DFDDC8 /* NotNeeded.m in Sources */ = {isa = PBXBuildFile; fileRef = F29766332EE6EE0B00DFDDC8 /* NotNeeded.m */; };
+		F2AB9C192E7ACFB8005B06FE /* Playground.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AB9C182E7ACFB8005B06FE /* Playground.m */; };
 		F2AC9E292CA17A1700B28D25 /* MySwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AC9E282CA17A1700B28D25 /* MySwiftClass.swift */; };
 		F2B16AED2BD179AB00FAC40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B16AEC2BD179AB00FAC40B /* main.m */; };
 		F2B16AFD2BD1808800FAC40B /* AlphabetGuessingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B16AFC2BD1808800FAC40B /* AlphabetGuessingGame.m */; };
 		F2B2E4A72BD1B5FA0018D10C /* ArraySumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B2E4A62BD1B5FA0018D10C /* ArraySumCalculator.m */; };
-		F2BEFDA42C97756C0044497E /* main_sandbox.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2BEFDA32C97756C0044497E /* main_sandbox.mm */; };
+		F2BEFDA42C97756C0044497E /* main_objc++.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2BEFDA32C97756C0044497E /* main_objc++.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +36,14 @@
 		F2588A162BD2653200C4DC5E /* AverageNumberCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AverageNumberCalculator.m; sourceTree = "<group>"; };
 		F2588A182BD26C7200C4DC5E /* BinaryConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryConverter.h; sourceTree = "<group>"; };
 		F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryConverter.m; sourceTree = "<group>"; };
-		F2AC9E272CA17A1600B28D25 /* MyObjective-CSandbox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyObjective-CSandbox-Bridging-Header.h"; sourceTree = "<group>"; };
+		F27A28EA2E99485D0071D9EF /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		F297662E2EE6D5B700DFDDC8 /* PLog.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PLog.mm; sourceTree = "<group>"; };
+		F29766312EE6ECC300DFDDC8 /* NotNeeded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotNeeded.h; sourceTree = "<group>"; };
+		F29766332EE6EE0B00DFDDC8 /* NotNeeded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotNeeded.m; sourceTree = "<group>"; };
+		F29766362EE6EF1E00DFDDC8 /* PLog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PLog.hpp; sourceTree = "<group>"; };
+		F2AB9C182E7ACFB8005B06FE /* Playground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playground.m; sourceTree = "<group>"; };
+		F2AB9C1A2E7AD10C005B06FE /* Playground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playground.h; sourceTree = "<group>"; };
+		F2AC9E272CA17A1600B28D25 /* MyObjective-CSandbox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyObjective-CSandbox-Bridging-Header.h"; path = "MyObjective-CSandbox/Supporting/Bridging/MyObjective-CSandbox-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		F2AC9E282CA17A1700B28D25 /* MySwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftClass.swift; sourceTree = "<group>"; };
 		F2B16AE92BD179AB00FAC40B /* MyObjective-CSandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MyObjective-CSandbox"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B16AEC2BD179AB00FAC40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,7 +52,7 @@
 		F2B16AFC2BD1808800FAC40B /* AlphabetGuessingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphabetGuessingGame.m; sourceTree = "<group>"; };
 		F2B2E4A52BD1B5B20018D10C /* ArraySumCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArraySumCalculator.h; sourceTree = "<group>"; };
 		F2B2E4A62BD1B5FA0018D10C /* ArraySumCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraySumCalculator.m; sourceTree = "<group>"; };
-		F2BEFDA32C97756C0044497E /* main_sandbox.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main_sandbox.mm; sourceTree = "<group>"; };
+		F2BEFDA32C97756C0044497E /* main_objc++.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "main_objc++.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F2AC9E262CA179FA00B28D25 /* Swift Files */ = {
+		F29766292EE6C60E00DFDDC8 /* ObjC++ */ = {
+			isa = PBXGroup;
+			children = (
+				F297662E2EE6D5B700DFDDC8 /* PLog.mm */,
+				F29766362EE6EF1E00DFDDC8 /* PLog.hpp */,
+			);
+			path = "ObjC++";
+			sourceTree = "<group>";
+		};
+		F297662A2EE6C62400DFDDC8 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				F2B16AFA2BD17E0700FAC40B /* Genin */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		F297662B2EE6C6E100DFDDC8 /* Bridging */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC9E272CA17A1600B28D25 /* MyObjective-CSandbox-Bridging-Header.h */,
+			);
+			path = Bridging;
+			sourceTree = "<group>";
+		};
+		F297662C2EE6C6F200DFDDC8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				F297662B2EE6C6E100DFDDC8 /* Bridging */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		F297662D2EE6C77600DFDDC8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F29766292EE6C60E00DFDDC8 /* ObjC++ */,
+				F2FA30FF2E7AB73500D096C1 /* Playground */,
+				F2AC9E262CA179FA00B28D25 /* Swift */,
+				F297662A2EE6C62400DFDDC8 /* Tasks */,
+				F2B16AF92BD17DCA00FAC40B /* Executable.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F2AC9E262CA179FA00B28D25 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
 				F2AC9E282CA17A1700B28D25 /* MySwiftClass.swift */,
-				F2AC9E272CA17A1600B28D25 /* MyObjective-CSandbox-Bridging-Header.h */,
 			);
-			path = "Swift Files";
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		F2B16AE02BD179AB00FAC40B = {
@@ -84,16 +138,16 @@
 		F2B16AEB2BD179AB00FAC40B /* MyObjective-CSandbox */ = {
 			isa = PBXGroup;
 			children = (
-				F2AC9E262CA179FA00B28D25 /* Swift Files */,
-				F2BEFDA22C9758C00044497E /* Sandbox Files */,
-				F2B16AFA2BD17E0700FAC40B /* Genin Tasks */,
-				F2B16AF92BD17DCA00FAC40B /* Executable.h */,
+				F297662D2EE6C77600DFDDC8 /* Sources */,
+				F297662C2EE6C6F200DFDDC8 /* Supporting */,
 				F2B16AEC2BD179AB00FAC40B /* main.m */,
+				F2BEFDA32C97756C0044497E /* main_objc++.mm */,
+				F27A28EA2E99485D0071D9EF /* AppConfig.xcconfig */,
 			);
 			path = "MyObjective-CSandbox";
 			sourceTree = "<group>";
 		};
-		F2B16AFA2BD17E0700FAC40B /* Genin Tasks */ = {
+		F2B16AFA2BD17E0700FAC40B /* Genin */ = {
 			isa = PBXGroup;
 			children = (
 				F2B16AFB2BD1801900FAC40B /* AlphabetGuessingGame.h */,
@@ -105,15 +159,18 @@
 				F2588A182BD26C7200C4DC5E /* BinaryConverter.h */,
 				F2588A192BD26C9F00C4DC5E /* BinaryConverter.m */,
 			);
-			path = "Genin Tasks";
+			path = Genin;
 			sourceTree = "<group>";
 		};
-		F2BEFDA22C9758C00044497E /* Sandbox Files */ = {
+		F2FA30FF2E7AB73500D096C1 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				F2BEFDA32C97756C0044497E /* main_sandbox.mm */,
+				F2AB9C182E7ACFB8005B06FE /* Playground.m */,
+				F2AB9C1A2E7AD10C005B06FE /* Playground.h */,
+				F29766332EE6EE0B00DFDDC8 /* NotNeeded.m */,
+				F29766312EE6ECC300DFDDC8 /* NotNeeded.h */,
 			);
-			path = "Sandbox Files";
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					F2B16AE82BD179AB00FAC40B = {
 						CreatedOnToolsVersion = 15.1;
@@ -174,10 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BEFDA42C97756C0044497E /* main_sandbox.mm in Sources */,
+				F297662F2EE6D5B700DFDDC8 /* PLog.mm in Sources */,
+				F2BEFDA42C97756C0044497E /* main_objc++.mm in Sources */,
 				F2B16AED2BD179AB00FAC40B /* main.m in Sources */,
 				F2588A1A2BD26C9F00C4DC5E /* BinaryConverter.m in Sources */,
+				F29766342EE6EE0B00DFDDC8 /* NotNeeded.m in Sources */,
 				F2B2E4A72BD1B5FA0018D10C /* ArraySumCalculator.m in Sources */,
+				F2AB9C192E7ACFB8005B06FE /* Playground.m in Sources */,
 				F2AC9E292CA17A1700B28D25 /* MySwiftClass.swift in Sources */,
 				F2588A172BD2653200C4DC5E /* AverageNumberCalculator.m in Sources */,
 				F2B16AFD2BD1808800FAC40B /* AlphabetGuessingGame.m in Sources */,
@@ -221,6 +281,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -240,7 +301,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,6 +343,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -295,10 +357,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
@@ -306,12 +369,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZW2GC695XD;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.iodevblue.sandbox.macos.objcsandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MyObjective-CSandbox/Swift Files/MyObjective-CSandbox-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyObjective-CSandbox/Supporting/Bridging/MyObjective-CSandbox-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -321,12 +391,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZW2GC695XD;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_MODULE_VERIFIER = YES;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.iodevblue.sandbox.macos.objcsandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MyObjective-CSandbox/Swift Files/MyObjective-CSandbox-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyObjective-CSandbox/Supporting/Bridging/MyObjective-CSandbox-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

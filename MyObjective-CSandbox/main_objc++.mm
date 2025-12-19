@@ -9,16 +9,20 @@
 #import <Foundation/Foundation.h>
 
 #import "MyObjective_CSandbox-Swift.h"
+#import "PLog.hpp"
 
 void cppFunction(std::function<void(int)> lambda) {
 	lambda(42);  // Invoke the lambda in C++ context
 }
 
 
-int main() {
-	// Objective-C file
-	MySwiftClass *swiftObj = [[MySwiftClass alloc] initWithName:@"John"];
-	[swiftObj greet]; // Calls the Swift method
-
-	return 0;
-}
+//int main() {
+//	// Objective-C file
+//	MySwiftClass *swiftObj = [[MySwiftClass alloc] initWithName:@"John"];
+//	[swiftObj greet]; // Calls the Swift method
+//    
+//    PLog* plog = [[PLog alloc] init];
+//    [plog printCppVersion];
+//
+//	return 0;
+//}

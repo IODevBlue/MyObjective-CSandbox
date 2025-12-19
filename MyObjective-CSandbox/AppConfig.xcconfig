@@ -1,0 +1,10 @@
+//
+// AppConfig.xcconfig
+// MyObjective-CSandbox
+//
+    
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+CAMERA_USAGE_DESCRIPTION = StreamNear needs camera access to stream live video.
+

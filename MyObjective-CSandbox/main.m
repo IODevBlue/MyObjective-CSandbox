@@ -11,13 +11,17 @@
 #import "ArraySumCalculator.h"
 #import "AverageNumberCalculator.h"
 #import "BinaryConverter.h"
+#import <objc/message.h>
+#import "Playground.h"
 
-//int main(int argc, const char * argv[]) {
-//	@autoreleasepool {
-//		
-//		id<Executable> ex = [[BinaryConverter alloc] init];
-//		[ex exec];
-//	}
-//	return 0;
-//}
+int main(int argc, const char * argv[]) {
+    
+	@autoreleasepool {
+        Playground* pg = [[Playground alloc] initPlayground];
+        [pg printName: YES];
+	}
+    
+	return 0;
+}
 
+                                                                                                                                                                                                                 
